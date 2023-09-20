@@ -2,7 +2,6 @@ package com.pluralsight.catalog.document;
 
 import jakarta.jws.WebService;
 import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.TypedQuery;
 import jakarta.transaction.HeuristicMixedException;

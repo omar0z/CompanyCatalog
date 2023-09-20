@@ -64,4 +64,11 @@ public class Company {
     public void setContactEmail(String email) {
         this.contactEmail = email;
     }
+
+    @Override
+    public String toString() {
+        return "{"+this.getId() + " | "
+                + this.getName() + " | "
+                + this.getContactEmail()+"}";
+    }
 }
